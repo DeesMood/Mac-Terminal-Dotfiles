@@ -17,3 +17,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions \
   ~/.zsh/zsh-autosuggestions
 ```
 
+![demo](./Screenshot\ 2026-06-06\ at\ 21.37.22.png)

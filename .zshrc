@@ -51,3 +51,6 @@ zstyle ':completion:*:approximate:*' max-errors 2 numeric
 
 ## Completion colors
 zstyle ':completion:*' list-colors 'di=34'
+
+# Autosuggestion
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

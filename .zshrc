@@ -54,3 +54,31 @@ zstyle ':completion:*' list-colors 'di=34'
 
 # Autosuggestion
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Custom syntax highlighting colors
+typeset -A ZSH_HIGHLIGHT_STYLES
+
+# Commands in green
+ZSH_HIGHLIGHT_STYLES[command]='fg=green,bold'
+
+# Executables in cyan (matches user@host)
+ZSH_HIGHLIGHT_STYLES[commandseparator]='fg=cyan'
+
+# Options / flags in magenta (stands out but not harsh)
+ZSH_HIGHLIGHT_STYLES[option]='fg=magenta'
+
+# Paths in blue (matches path in prompt)
+ZSH_HIGHLIGHT_STYLES[path]='fg=blue'
+
+# Variables in yellow (matches Git branch)
+ZSH_HIGHLIGHT_STYLES[bracketed-parameter]='fg=yellow'
+
+# Strings in white
+ZSH_HIGHLIGHT_STYLES[alias]='fg=white'
+
+# Errors in red
+ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=red,bold'
+
+# Syntax Highlighting 
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+

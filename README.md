@@ -17,4 +17,10 @@ git clone https://github.com/zsh-users/zsh-autosuggestions \
   ~/.zsh/zsh-autosuggestions
 ```
 
+## Syntax Highlighting
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
+  ~/.zsh/zsh-syntax-highlighting
+```
+
 ![demo](./Screenshot%202026-06-06%20at%2021.37.22.png)

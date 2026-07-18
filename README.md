@@ -30,12 +30,26 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
   ~/.zsh/zsh-syntax-highlighting
 ```
 
-![demo](./Screenshot%202026-06-06%20at%2021.37.22.png)
+![zsh](./zsh.png)
 
-## TMUX configuration
+## TMUX Configuration
 
-After downloading the `.tmux.conf`, you can install the plugins with `Prefix (Ctrl+b) + I (Shift + i)` and just wait for the text that says "TMUX environment reloaded.". The plugins used are:
-1. `tmux-resurrect` to save and restore a tmux server backup in case of you computer crashing and shutting down.
-2. `tmux-continuum` automation for `tmux-resurrect`.
+After downloading the `.tmux.conf`, you can install the plugins with `Prefix (Ctrl+b) + I (Shift + i)` and just wait for the text that says "TMUX environment reloaded.". The additions done are:
+1. `tmux-resurrect` plugin to save and restore a tmux server backup in case of you computer crashing and shutting down.
+2. `tmux-continuum` plugin automation for `tmux-resurrect`.
+3. Switch pane my clicking.
+4. A theme to match my `.zshrc`.
+5. Keep current directory when splitting panes.
+6. Copy selection to Mac clipboard.
+7. Start windows at pane 1 not 0 (For easier switching).
+8. And more...
 
-## 
+![tmux](./tmux.png)
+
+## NVIM Configuration
+
+My setup usually uses Neovim as my daily coding environment or IDE. My neovim profile is the [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim.git). Once you put the `nvim` folder to your machine, it will start an installation of entering `nvim`. Some changes I made to the original version are:
+1. A quick navigation when splitting neovim instances, it allows for easy switching between splitted instances using `Ctrl+h\j\k\l` (Similar to moving the cursor around in vim).
+2. Slightly modified default theme to match my terminal theme.
+
+![nvim](./nvim.png)
